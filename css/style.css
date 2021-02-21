@@ -49,6 +49,7 @@ li {
 
 /* Header e menu */
 
+
 .menu {
     display: flex;
     max-width: 950px;
@@ -58,12 +59,17 @@ li {
     padding: 30px 0;
     justify-content: space-between;
     background-color: white;
+
 }
 
-/* .bg-menu {
+.bg-menu {
     position: sticky;
     top: 0;
-} */
+    z-index: 200;
+    max-width: 100%;
+    background-color: white;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+}
 
 .logo-menu a {
     text-decoration: none;
@@ -923,6 +929,9 @@ li {
     }
     .container-footer > div:nth-child(2) > ul li, .container-footer > div:nth-child(3) > ul li  {
         text-align: center;
+    }
+    .footer-itens > span {
+        text-decoration: none;
     }
 }
 
